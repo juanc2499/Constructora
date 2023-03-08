@@ -34,14 +34,14 @@ if(btnProject3){
 const btnInicio = document.querySelector("#inicio")
 if(btnInicio){
     btnInicio.addEventListener("click", function(){
-        window.location.href="Constructora.html"
+        window.location.href="index.html"
     });
 }
 
 const btnInicioModal = document.querySelector("#iniciomodal")
 if(btnInicioModal){
     btnInicioModal.addEventListener("click", function(){
-        window.location.href="Constructora.html"
+        window.location.href="index.html"
     });
 }
 
