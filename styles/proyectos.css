@@ -1,0 +1,161 @@
+/*VARIABLES*/
+/*NAVBAR*/
+nav {
+  background-color: #14193E;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  box-shadow: rgba(255, 255, 255, 0.5764705882) 0 10px 10px -10px;
+}
+
+nav img {
+  width: 80px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.inicio {
+  color: white;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.fixed-menu-icon {
+  right: 0;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  top: 12px;
+  z-index: 101;
+  position: fixed;
+}
+
+.fixed-menu-icon, .fixed-menu-icon:hover, .fixed-menu-icon {
+  background-color: #14193E;
+  border: #14193E;
+}
+
+.fa-solid .fas {
+  font-weight: 900;
+}
+
+.fa-solid {
+  font-weight: 900;
+}
+
+.offcanvas {
+  background-color: #14193E;
+  color: white;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-toggle {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .fixed-menu-icon {
+    display: inline-block !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .fixed-menu-icon {
+    display: none;
+  }
+}
+/*MAIN*/
+main section article img {
+  width: 100%;
+}
+
+main {
+  padding-top: 77px;
+}
+
+article img {
+  max-height: 523px;
+  min-height: 100%;
+}
+
+form {
+  background-color: #bec4c1;
+}
+
+form button {
+  width: 100%;
+}
+
+form hr {
+  width: 95%;
+  margin: 0;
+  border-color: rgba(0, 0, 0, 0) !important;
+}
+
+.input-container {
+  align-self: start;
+  flex-direction: column;
+  width: 100%;
+}
+
+.spacer {
+  height: 10px;
+}
+
+.project-details-top {
+  text-align: center;
+}
+
+button.btn.btn-outline-secondary {
+  border-color: white;
+  color: white;
+}
+
+.project-details {
+  background-color: #14193E;
+  color: white;
+  height: 100%;
+}
+
+/*Modal*/
+.modal {
+  max-width: 80vw;
+}
+
+.modalImg {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/*FOOTER*/
+footer {
+  background-color: #14193E;
+  width: 100%;
+  min-height: 166px;
+}
+
+h4 {
+  font-weight: 16px;
+}
+
+div.col-4 {
+  color: white;
+}
+
+.nosotros_label {
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+}
+
+/*# sourceMappingURL=proyectos.css.map */

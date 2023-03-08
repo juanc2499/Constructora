@@ -1,0 +1,229 @@
+/*General*/
+ul {
+  list-style: none;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+#proyecto1 {
+  color: white;
+  text-decoration: none;
+}
+
+#proyecto2 {
+  color: white;
+  text-decoration: none;
+}
+
+#proyecto3 {
+  color: white;
+  text-decoration: none;
+}
+
+/*Navbar*/
+.navbar {
+  width: 100%;
+  height: 506px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../imagenes/bg.png);
+}
+
+.nav-logo {
+  width: 100px;
+  height: 80px;
+}
+
+.fixed-menu-icon {
+  right: 0;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  top: 12px;
+  z-index: 101;
+  position: fixed;
+}
+
+.fixed-menu-icon, .fixed-menu-icon:hover, .fixed-menu-icon {
+  background-color: #14193E;
+}
+
+button {
+  cursor: pointer;
+}
+
+.offcanvas {
+  background-color: #14193E;
+  color: white;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-toggle {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .fixed-menu-icon {
+    display: inline-block !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .fixed-menu-icon {
+    display: none;
+  }
+}
+@media screen and (max-width: 575px) {
+  nav.navbar {
+    height: 220px;
+  }
+}
+@media screen and (max-width: 767px) {
+  nav.navbar {
+    height: 320px;
+  }
+}
+@media screen and (max-width: 991px) {
+  nav.navbar {
+    height: 420px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .navbar-toggle {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .navbar-toggle {
+    flex: 0 0 auto;
+    width: 41.67%;
+  }
+}
+/*Body*/
+h2 {
+  text-align: center;
+}
+
+#btnScrollTop {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+#btnScrollTop:active {
+  background-color: #A1A5A1;
+}
+
+/*Main*/
+.art-img {
+  max-width: 100%;
+}
+
+main article a {
+  text-decoration: none;
+}
+
+main article {
+  text-align: center;
+}
+
+article a {
+  position: relative;
+  bottom: 50%;
+  visibility: hidden;
+  color: white;
+  font-size: 1vw;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+main article:hover {
+  filter: brightness(90%);
+}
+
+main article:hover a {
+  visibility: visible;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 576px) {
+  .container {
+    max-width: 540px !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 720px !important;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 960px !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  article a {
+    font-size: 2vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .mainf .sectionf article {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .mainf .sectionf {
+    justify-content: center;
+  }
+}
+/*Footer*/
+footer {
+  background-color: #14193E;
+  width: 100%;
+  min-height: 166px;
+}
+
+h4 {
+  font-weight: 400;
+}
+
+div.col-4 {
+  color: white;
+}
+
+@media screen and (max-width: 767px) {
+  footer div.row div {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=constructora.css.map */
